@@ -22,6 +22,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
+  <!-- Google Analytics — replace G-XXXXXXXXXX with your Measurement ID -->
+  <!-- To get your ID: go to analytics.google.com → Create Account → Create Property → Get tag -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
 </head>
 <body>
   <!-- Navigation -->
@@ -213,7 +223,7 @@
           <div class="timeline-content">
             <div class="timeline-header">
               <div>
-                <h3 data-i18n="exp.market.title">Software Developer</h3>
+                <h3 data-i18n="exp.market.title">Data Engineer & Automation Developer</h3>
                 <p class="timeline-company" data-i18n="exp.market.loc">Market One — Tucumán, Argentina</p>
               </div>
               <span class="timeline-date" data-i18n="exp.market.date">Jul 2020 — Jan 2021</span>
@@ -306,21 +316,24 @@
     <div class="container">
       <h2 class="section-title" data-i18n="certs.title">Certifications</h2>
       <div class="cert-grid">
-        <div class="cert-card">
+        <a href="https://www.credly.com/org/google/badge/google-data-analytics-certificate" target="_blank" rel="noopener" class="cert-card cert-link">
           <div class="cert-icon">📈</div>
           <h4>Google Data Analytics Certificate</h4>
           <p>Google, 2023</p>
-        </div>
-        <div class="cert-card">
+          <span class="cert-verify" data-i18n="certs.verify">View credential ↗</span>
+        </a>
+        <a href="https://cs50.harvard.edu/certificates" target="_blank" rel="noopener" class="cert-card cert-link">
           <div class="cert-icon">🧠</div>
           <h4>CS50 Series: Computer Science, Python, AI</h4>
           <p>Harvard University, 2020–2022</p>
-        </div>
-        <div class="cert-card">
+          <span class="cert-verify" data-i18n="certs.verify">View credential ↗</span>
+        </a>
+        <a href="https://www.lewagon.com/web-development-course" target="_blank" rel="noopener" class="cert-card cert-link">
           <div class="cert-icon">🎨</div>
           <h4>UI/UX Design</h4>
           <p>Le Wagon, 2022</p>
-        </div>
+          <span class="cert-verify" data-i18n="certs.verify">View credential ↗</span>
+        </a>
         <div class="cert-card">
           <div class="cert-icon">📊</div>
           <h4 data-i18n="certs.pbi">Power BI Intermediate</h4>
@@ -351,6 +364,35 @@
         <div class="lead-card">
           <h4 data-i18n="lead.exchange.title">International Cultural Exchange</h4>
           <p data-i18n="lead.exchange.desc">12-week immersion program in Australia & New Zealand (2014)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What I'm Looking For -->
+  <section class="section section-dark" id="looking-for">
+    <div class="container">
+      <h2 class="section-title" data-i18n="looking.title">What I'm Looking For</h2>
+      <div class="looking-grid">
+        <div class="looking-card">
+          <div class="looking-icon">🎯</div>
+          <h4 data-i18n="looking.roles.title">Target Roles</h4>
+          <p data-i18n="looking.roles.desc">Supply Chain Manager, Logistics Operations Manager, Network Design Lead, Transportation Manager, or Data & Analytics roles within operations-heavy environments.</p>
+        </div>
+        <div class="looking-card">
+          <div class="looking-icon">🏭</div>
+          <h4 data-i18n="looking.industries.title">Industries</h4>
+          <p data-i18n="looking.industries.desc">E-commerce, logistics & transportation, FMCG, manufacturing, retail, or any company where supply chain is a competitive advantage — not just a cost center.</p>
+        </div>
+        <div class="looking-card">
+          <div class="looking-icon">💡</div>
+          <h4 data-i18n="looking.what.title">What Excites Me</h4>
+          <p data-i18n="looking.what.desc">Roles where I can combine analytical depth with operational impact. I thrive in environments that value data-driven decisions, cross-border complexity, and continuous improvement at scale.</p>
+        </div>
+        <div class="looking-card">
+          <div class="looking-icon">📍</div>
+          <h4 data-i18n="looking.location.title">Location</h4>
+          <p data-i18n="looking.location.desc">Currently based in Paris. Planning to relocate to Argentina (Buenos Aires / Tucumán). Open to remote, hybrid, or on-site roles in LATAM or Europe.</p>
         </div>
       </div>
     </div>
@@ -489,7 +531,7 @@
       });
     }, { threshold: 0.08 });
 
-    document.querySelectorAll('.timeline-item, .edu-card, .cert-card, .lead-card, .skill-category, .about-text, .about-languages, .map-region, .contact-card').forEach((el, i) => {
+    document.querySelectorAll('.timeline-item, .edu-card, .cert-card, .lead-card, .skill-category, .about-text, .about-languages, .map-region, .contact-card, .looking-card').forEach((el, i) => {
       el.classList.add('reveal');
       el.style.transitionDelay = `${(i % 4) * 0.1}s`;
       revealObserver.observe(el);
@@ -528,5 +570,23 @@
     }, { threshold: 0.5 });
     document.querySelectorAll('.stat-num[data-target]').forEach(el => counterObserver.observe(el));
   </script>
+  <!-- LinkedIn Insight Tag — replace PARTNER_ID with yours -->
+  <!-- To get your ID: linkedin.com/campaignmanager → Account Assets → Insight Tag -->
+  <script type="text/javascript">
+    _linkedin_partner_id = "PARTNER_ID";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+  </script>
+  <script type="text/javascript">
+    (function(l) {
+    if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+    window.lintrk.q=[]}
+    var s = document.getElementsByTagName("script")[0];
+    var b = document.createElement("script");
+    b.type = "text/javascript";b.async = true;
+    b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+    s.parentNode.insertBefore(b, s);})(window.lintrk);
+  </script>
+  <noscript><img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=PARTNER_ID&fmt=gif" /></noscript>
 </body>
 </html>

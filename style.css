@@ -299,6 +299,14 @@ a:hover { color: #7aadff; }
 .cert-icon { font-size: 1.8rem; margin-bottom: 12px; }
 .cert-card h4 { font-size: 0.95rem; margin-bottom: 8px; line-height: 1.4; }
 .cert-card p { font-size: 0.8rem; color: var(--text-muted); }
+.cert-link { display: block; color: var(--text); }
+.cert-link:hover { color: var(--text); }
+.cert-verify {
+  display: inline-block; margin-top: 12px; font-size: 0.75rem;
+  color: var(--accent); font-weight: 500; opacity: 0;
+  transition: opacity .3s;
+}
+.cert-link:hover .cert-verify { opacity: 1; }
 
 /* === Leadership === */
 .leadership-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
@@ -310,6 +318,18 @@ a:hover { color: #7aadff; }
 .lead-card:hover { border-color: rgba(79,140,255,0.2); }
 .lead-card h4 { font-size: 1rem; margin-bottom: 10px; color: var(--accent); }
 .lead-card p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; }
+
+/* === What I'm Looking For === */
+.looking-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+.looking-card {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 32px;
+  transition: border-color .3s;
+}
+.looking-card:hover { border-color: rgba(79,140,255,0.2); }
+.looking-icon { font-size: 1.6rem; margin-bottom: 12px; }
+.looking-card h4 { font-size: 1.05rem; margin-bottom: 10px; color: var(--accent); }
+.looking-card p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.7; }
 
 /* === Contact (enhanced) === */
 .contact-section { text-align: center; }
@@ -372,6 +392,7 @@ a:hover { color: #7aadff; }
   .hero-stats .stat { min-width: 40%; }
   .about-grid { grid-template-columns: 1fr; gap: 40px; }
   .edu-grid, .skills-grid { grid-template-columns: 1fr; }
+  .looking-grid { grid-template-columns: 1fr; }
   .leadership-grid { grid-template-columns: 1fr; }
   .map-grid { grid-template-columns: 1fr; }
   .timeline-header { flex-direction: column; }

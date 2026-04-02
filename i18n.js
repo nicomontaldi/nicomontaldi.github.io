@@ -54,10 +54,10 @@ const translations = {
     "exp.scania.date": "Dec 2020 — Dec 2021",
     "exp.scania.li1": 'Developed Power BI dashboard tracking <strong>$1MM inventory</strong>, reducing tool downtime by 15% in 2 production lanes.',
     "exp.scania.li2": "Managed tool sharpening logistics and optimized maintenance workflows with cross-functional teams.",
-    "exp.market.title": "Software Developer",
+    "exp.market.title": "Data Engineer & Automation Developer",
     "exp.market.loc": "Market One — Tucumán, Argentina",
     "exp.market.date": "Jul 2020 — Jan 2021",
-    "exp.market.li1": 'Built Python web scraper with SQL pipeline and Power BI dashboards automating competitive analysis for <strong>2,000+ products</strong> across 10 LATAM marketplaces, improving margins by 3%.',
+    "exp.market.li1": 'Designed and built a full data pipeline — Python web scraper, SQL database, and Power BI dashboards — automating competitive pricing analysis for <strong>2,000+ products</strong> across 10 LATAM marketplaces, directly improving margins by 3% through data-driven pricing strategies.',
 
     "edu.title": "Education",
     "edu.audencia.title": "MSc Management-Engineering",
@@ -95,7 +95,19 @@ const translations = {
     "contact.sub": "Looking for my next challenge in Supply Chain, Logistics, Operations, or Data Analytics. Based in Paris, open to relocation.",
     "contact.phone": "Phone",
     "contact.cv": "Download Full CV (PDF)",
-    "footer": "Built with purpose."
+    "footer": "Built with purpose.",
+
+    "certs.verify": "View credential ↗",
+
+    "looking.title": "What I'm Looking For",
+    "looking.roles.title": "Target Roles",
+    "looking.roles.desc": "Supply Chain Manager, Logistics Operations Manager, Network Design Lead, Transportation Manager, or Data & Analytics roles within operations-heavy environments.",
+    "looking.industries.title": "Industries",
+    "looking.industries.desc": "E-commerce, logistics & transportation, FMCG, manufacturing, retail, or any company where supply chain is a competitive advantage — not just a cost center.",
+    "looking.what.title": "What Excites Me",
+    "looking.what.desc": "Roles where I can combine analytical depth with operational impact. I thrive in environments that value data-driven decisions, cross-border complexity, and continuous improvement at scale.",
+    "looking.location.title": "Location",
+    "looking.location.desc": "Currently based in Paris. Planning to relocate to Argentina (Buenos Aires / Tucumán). Open to remote, hybrid, or on-site roles in LATAM or Europe."
   },
 
   es: {
@@ -153,10 +165,10 @@ const translations = {
     "exp.scania.date": "Dic 2020 — Dic 2021",
     "exp.scania.li1": 'Desarrollé tableros en Power BI (control de <strong>USD 1M de stock</strong>), reduciendo 15% el tiempo de inactividad en 2 líneas de producción.',
     "exp.scania.li2": "Gestioné la logística de afilado de herramientas y optimicé flujos de mantenimiento con equipos multidisciplinarios.",
-    "exp.market.title": "Desarrollador de Software",
+    "exp.market.title": "Ingeniero de Datos y Desarrollador de Automatización",
     "exp.market.loc": "Market One — Tucumán, Argentina",
     "exp.market.date": "Jul 2020 — Ene 2021",
-    "exp.market.li1": 'Creé un web scraper en Python con pipeline de SQL y tableros en Power BI para automatizar el análisis competitivo de <strong>2.000+ productos</strong> en 10 marketplaces de LATAM, mejorando los márgenes en un 3%.',
+    "exp.market.li1": 'Diseñé y construí un pipeline de datos completo — web scraper en Python, base de datos SQL y tableros en Power BI — automatizando el análisis de precios competitivos de <strong>2.000+ productos</strong> en 10 marketplaces de LATAM, mejorando los márgenes en un 3% mediante estrategias de pricing basadas en datos.',
 
     "edu.title": "Educación",
     "edu.audencia.title": "MSc Management-Engineering",
@@ -194,7 +206,19 @@ const translations = {
     "contact.sub": "Busco mi próximo desafío en Supply Chain, Logística, Operaciones o Data Analytics. Basado en París, abierto a mudarme a Argentina.",
     "contact.phone": "Teléfono",
     "contact.cv": "Descargar CV Completo (PDF)",
-    "footer": "Hecho con propósito."
+    "footer": "Hecho con propósito.",
+
+    "certs.verify": "Ver credencial ↗",
+
+    "looking.title": "Qué Busco",
+    "looking.roles.title": "Roles Objetivo",
+    "looking.roles.desc": "Supply Chain Manager, Gerente de Operaciones Logísticas, Líder de Diseño de Red, Gerente de Transporte, o roles de Data & Analytics en entornos operativos intensivos.",
+    "looking.industries.title": "Industrias",
+    "looking.industries.desc": "E-commerce, logística y transporte, consumo masivo, manufactura, retail, o cualquier empresa donde la cadena de suministro sea una ventaja competitiva — no solo un centro de costos.",
+    "looking.what.title": "Qué Me Motiva",
+    "looking.what.desc": "Roles donde pueda combinar profundidad analítica con impacto operativo. Me desarrollo mejor en entornos que valoran las decisiones basadas en datos, la complejidad internacional y la mejora continua a escala.",
+    "looking.location.title": "Ubicación",
+    "looking.location.desc": "Actualmente basado en París. Planifico mudarme a Argentina (Buenos Aires / Tucumán). Abierto a roles remotos, híbridos o presenciales en LATAM o Europa."
   },
 
   fr: {
@@ -252,10 +276,10 @@ const translations = {
     "exp.scania.date": "Déc 2020 — Déc 2021",
     "exp.scania.li1": 'Développement de tableaux de bord Power BI (suivi de <strong>1M USD de stock</strong>), réduisant les temps d\'arrêt de 15% sur 2 lignes de production.',
     "exp.scania.li2": "Gestion de la logistique d'affûtage d'outils et optimisation des flux de maintenance avec des équipes pluridisciplinaires.",
-    "exp.market.title": "Développeur Logiciel",
+    "exp.market.title": "Ingénieur Données & Développeur Automatisation",
     "exp.market.loc": "Market One — Tucumán, Argentine",
     "exp.market.date": "Juil 2020 — Jan 2021",
-    "exp.market.li1": 'Création d\'un web scraper Python avec pipeline SQL et tableaux Power BI automatisant l\'analyse concurrentielle de <strong>2 000+ produits</strong> sur 10 marketplaces LATAM, améliorant les marges de 3%.',
+    "exp.market.li1": 'Conception et développement d\'un pipeline de données complet — web scraper Python, base SQL et tableaux Power BI — automatisant l\'analyse tarifaire concurrentielle de <strong>2 000+ produits</strong> sur 10 marketplaces LATAM, améliorant les marges de 3% grâce à des stratégies de pricing data-driven.',
 
     "edu.title": "Formation",
     "edu.audencia.title": "MSc Management-Ingénierie",
@@ -293,6 +317,18 @@ const translations = {
     "contact.sub": "À la recherche de mon prochain défi en Supply Chain, Logistique, Opérations ou Data Analytics. Basé à Paris, ouvert à la mobilité.",
     "contact.phone": "Téléphone",
     "contact.cv": "Télécharger CV Complet (PDF)",
-    "footer": "Conçu avec intention."
+    "footer": "Conçu avec intention.",
+
+    "certs.verify": "Voir le certificat ↗",
+
+    "looking.title": "Ce Que Je Recherche",
+    "looking.roles.title": "Postes Visés",
+    "looking.roles.desc": "Supply Chain Manager, Responsable Opérations Logistiques, Lead Network Design, Responsable Transport, ou rôles Data & Analytics dans des environnements à forte composante opérationnelle.",
+    "looking.industries.title": "Secteurs",
+    "looking.industries.desc": "E-commerce, logistique et transport, grande consommation, industrie, retail, ou toute entreprise où la supply chain est un avantage concurrentiel — pas seulement un centre de coûts.",
+    "looking.what.title": "Ce Qui Me Motive",
+    "looking.what.desc": "Des postes où je peux allier profondeur analytique et impact opérationnel. Je m'épanouis dans des environnements qui valorisent les décisions data-driven, la complexité internationale et l'amélioration continue à grande échelle.",
+    "looking.location.title": "Localisation",
+    "looking.location.desc": "Actuellement basé à Paris. Projet de relocalisation en Argentine (Buenos Aires / Tucumán). Ouvert aux postes en remote, hybride ou présentiel en LATAM ou en Europe."
   }
 };
