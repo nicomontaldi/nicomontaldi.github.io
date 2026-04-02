@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nicolas Montaldi — Supply Chain & Logistics Professional</title>
+
+  <!-- SEO & Open Graph -->
+  <meta name="description" content="Nicolas Montaldi — 3P Network Design Manager at Amazon Logistics. 5+ years in Supply Chain, network optimization, and data analytics across Europe and LATAM.">
+  <meta name="keywords" content="Nicolas Montaldi, Supply Chain, Logistics, Amazon, Network Design, Last Mile, Data Analytics, Paris">
+  <meta property="og:title" content="Nicolas Montaldi — Supply Chain & Logistics Professional">
+  <meta property="og:description" content="3P Network Design Manager at Amazon Logistics. Optimizing last-mile delivery across Southern Europe. 170M+ packages, €2M cost savings.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="Profile-1.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nicolas Montaldi — Supply Chain & Logistics">
+  <meta name="twitter:description" content="3P Network Design Manager at Amazon Logistics, Paris.">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect rx='20' width='100' height='100' fill='%234f8cff'/><text x='50' y='68' font-size='50' font-family='serif' font-weight='bold' text-anchor='middle' fill='white'>NM</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">NM</a>
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="fr">FR</button>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about" data-section="about" data-i18n="nav.about">About</a></li>
+        <li><a href="#experience" data-section="experience" data-i18n="nav.experience">Experience</a></li>
+        <li><a href="#education" data-section="education" data-i18n="nav.education">Education</a></li>
+        <li><a href="#skills" data-section="skills" data-i18n="nav.skills">Skills</a></li>
+        <li><a href="#certifications" data-section="certifications" data-i18n="nav.certs">Certifications</a></li>
+        <li><a href="#contact" class="btn-nav" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <p class="hero-tag" data-i18n="hero.tag">Supply Chain & Logistics</p>
+          <h1>Nicolas<br>Montaldi</h1>
+          <p class="hero-quote" data-i18n="hero.quote">"I turn logistics complexity into measurable performance — across borders, carriers, and cultures."</p>
+          <p class="hero-sub" data-i18n="hero.sub">3P Network Design Manager at <span class="highlight">Amazon Logistics</span>, optimizing last-mile delivery across Southern Europe. Engineering mindset, data-driven execution.</p>
+        </div>
+        <div class="hero-photo-wrap">
+          <div class="hero-photo">
+            <img src="Profile-1.png" alt="Nicolas Montaldi" width="280" height="280">
+          </div>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num" data-target="170" data-suffix="M+">0</span>
+          <span class="stat-label" data-i18n="hero.stat1">Packages / Year</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-target="2" data-prefix="€" data-suffix="M">0</span>
+          <span class="stat-label" data-i18n="hero.stat2">Annual Cost Savings</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-target="11">0</span>
+          <span class="stat-label" data-i18n="hero.stat3">Carrier Partners</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-target="6" data-suffix="+">0</span>
+          <span class="stat-label" data-i18n="hero.stat4">Countries Managed</span>
+        </div>
+      </div>
+      <div class="hero-actions">
+        <a href="#experience" class="btn btn-primary" data-i18n="hero.cta1">View Experience</a>
+        <a href="#contact" class="btn btn-outline" data-i18n="hero.cta2">Get in Touch</a>
+        <a href="CV_Nicolas_Montaldi_EN_V2.pdf" download class="btn btn-outline btn-download" id="cv-download">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="vertical-align:-2px;margin-right:6px"><path d="M8 1v10m0 0l-3-3m3 3l3-3M2 13h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="hero.cv">Download CV</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title" data-i18n="about.title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p data-i18n="about.p1">Results-driven Supply Chain & Logistics professional with 5+ years of experience spanning network optimization, data analytics, and mechanical engineering.</p>
+          <p data-i18n="about.p2">Currently based in Paris, I lead 3P network design for Spain, Portugal, and Italy at Amazon — owning speed strategy across 11 carrier partners delivering 170MM+ packages annually. My work blends analytical rigor (SQL, QuickSight, Power BI) with operational execution to drive measurable impact in cost, speed, and service performance.</p>
+          <p data-i18n="about.p3">With a dual background in Mechanical Engineering (Argentina) and an MSc in Management-Engineering from Audencia Business School (France), I bring a unique cross-functional perspective to complex logistics challenges.</p>
+        </div>
+        <div class="about-languages">
+          <h3 data-i18n="about.lang">Languages</h3>
+          <div class="lang-item">
+            <span class="lang-name" data-i18n="about.spanish">Spanish</span>
+            <div class="lang-bar"><div class="lang-fill" data-width="100"></div></div>
+            <span class="lang-level" data-i18n="about.native">Native</span>
+          </div>
+          <div class="lang-item">
+            <span class="lang-name" data-i18n="about.english">English</span>
+            <div class="lang-bar"><div class="lang-fill" data-width="100"></div></div>
+            <span class="lang-level" data-i18n="about.bilingual">Bilingual (TOEIC 990)</span>
+          </div>
+          <div class="lang-item">
+            <span class="lang-name" data-i18n="about.french">French</span>
+            <div class="lang-bar"><div class="lang-fill" data-width="90"></div></div>
+            <span class="lang-level" data-i18n="about.fluent">Fluent</span>
+          </div>
+          <div class="lang-item">
+            <span class="lang-name" data-i18n="about.italian">Italian</span>
+            <div class="lang-bar"><div class="lang-fill" data-width="55"></div></div>
+            <span class="lang-level" data-i18n="about.conversational">Conversational</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Footprint -->
+  <section class="section section-dark" id="footprint">
+    <div class="container">
+      <h2 class="section-title" data-i18n="footprint.title">Global Footprint</h2>
+      <p class="footprint-sub" data-i18n="footprint.sub">Countries where I've driven operational impact, studied, or lived.</p>
+      <div class="map-grid">
+        <div class="map-region">
+          <h3 data-i18n="footprint.europe">🇪🇺 Europe — Work & Education</h3>
+          <div class="map-tags">
+            <span class="map-tag active">🇫🇷 France <small data-i18n="footprint.based">Based</small></span>
+            <span class="map-tag active">🇪🇸 Spain</span>
+            <span class="map-tag active">🇵🇹 Portugal</span>
+            <span class="map-tag active">🇮🇹 Italy</span>
+            <span class="map-tag">🇵🇱 Poland</span>
+            <span class="map-tag">🇧🇪 Belgium</span>
+            <span class="map-tag">🇱🇺 Luxembourg</span>
+            <span class="map-tag">🇬🇧 United Kingdom</span>
+          </div>
+        </div>
+        <div class="map-region">
+          <h3 data-i18n="footprint.americas">🌎 Americas — Origin</h3>
+          <div class="map-tags">
+            <span class="map-tag active">🇦🇷 Argentina <small data-i18n="footprint.home">Home</small></span>
+          </div>
+        </div>
+        <div class="map-region">
+          <h3 data-i18n="footprint.oceania">🌏 Oceania — Cultural Exchange</h3>
+          <div class="map-tags">
+            <span class="map-tag">🇦🇺 Australia</span>
+            <span class="map-tag">🇳🇿 New Zealand</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <div class="container">
+      <h2 class="section-title" data-i18n="exp.title">Work Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>3P Network Design Manager</h3>
+                <p class="timeline-company" data-i18n="exp.amazon.loc">Amazon Logistics — Paris, France</p>
+              </div>
+              <span class="timeline-date" data-i18n="exp.amazon.date">Jan 2023 — Present</span>
+            </div>
+            <p class="timeline-role" data-i18n="exp.amazon.role">Last Mile Transportation</p>
+            <ul class="timeline-list">
+              <li data-i18n="exp.amazon.li1">Own 3P Speed strategy and network optimization for Spain, Portugal, and Italy, managing 11 external carrier partners delivering 170MM+ packages annually.</li>
+              <li data-i18n="exp.amazon.li2">Delivered <strong>€2M yearly cost reduction</strong> scope across ES-PT through network design optimization, lane strategy, and partner portfolio rebalancing.</li>
+              <li data-i18n="exp.amazon.li3">Improved next-day delivery speed for Correos (largest carrier in Spain) by <strong>+1,600 bps YoY</strong> (~85% improvement) through network redesign and performance-driven execution.</li>
+              <li data-i18n="exp.amazon.li4">Led performance improvement plan for InPost in Poland, increasing on-time delivery by <strong>+130 bps YoY</strong> through deep-dives, root cause analysis, and partner execution tracking.</li>
+              <li data-i18n="exp.amazon.li5">Supported network design across Belgium, Luxembourg, Poland, UK, and Rest of Europe, driving multi-market data-driven performance improvements.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 data-i18n="exp.scania.title">Mechanical Engineer Trainee</h3>
+                <p class="timeline-company" data-i18n="exp.scania.loc">Scania — Tucumán, Argentina</p>
+              </div>
+              <span class="timeline-date" data-i18n="exp.scania.date">Dec 2020 — Dec 2021</span>
+            </div>
+            <ul class="timeline-list">
+              <li data-i18n="exp.scania.li1">Developed Power BI dashboard tracking <strong>$1MM inventory</strong>, reducing tool downtime by 15% in 2 production lanes.</li>
+              <li data-i18n="exp.scania.li2">Managed tool sharpening logistics and optimized maintenance workflows with cross-functional teams.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 data-i18n="exp.market.title">Software Developer</h3>
+                <p class="timeline-company" data-i18n="exp.market.loc">Market One — Tucumán, Argentina</p>
+              </div>
+              <span class="timeline-date" data-i18n="exp.market.date">Jul 2020 — Jan 2021</span>
+            </div>
+            <ul class="timeline-list">
+              <li data-i18n="exp.market.li1">Built Python web scraper with SQL pipeline and Power BI dashboards automating competitive analysis for <strong>2,000+ products</strong> across 10 LATAM marketplaces, improving margins by 3%.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section section-dark" id="education">
+    <div class="container">
+      <h2 class="section-title" data-i18n="edu.title">Education</h2>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div class="edu-icon">🎓</div>
+          <h3 data-i18n="edu.audencia.title">MSc Management-Engineering</h3>
+          <p class="edu-school" data-i18n="edu.audencia.school">Audencia Business School — Nantes, France</p>
+          <p class="edu-detail" data-i18n="edu.audencia.detail">Programme Grande École, Corporate Finance</p>
+          <p class="edu-year">2022 — 2023</p>
+          <div class="edu-gpa">GPA: 17.1 / 20</div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon">⚙️</div>
+          <h3 data-i18n="edu.unt.title">Mechanical Engineering</h3>
+          <p class="edu-school" data-i18n="edu.unt.school">Universidad Nacional de Tucumán — Argentina</p>
+          <p class="edu-detail" data-i18n="edu.unt.detail">Full engineering degree</p>
+          <p class="edu-year">2015 — 2021</p>
+          <div class="edu-gpa">GPA: 8.1 / 10</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section-title" data-i18n="skills.title">Skills & Tools</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3 data-i18n="skills.analytics">📊 Analytics & BI</h3>
+          <div class="skill-tags">
+            <span class="tag">SQL</span>
+            <span class="tag">Amazon QuickSight</span>
+            <span class="tag">Power BI</span>
+            <span class="tag">Tableau</span>
+            <span class="tag">Advanced Excel</span>
+            <span class="tag">Power Query</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 data-i18n="skills.programming">💻 Programming</h3>
+          <div class="skill-tags">
+            <span class="tag">Python</span>
+            <span class="tag">HTML / CSS / JS</span>
+            <span class="tag">R</span>
+            <span class="tag">Java</span>
+            <span class="tag">Haskell</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 data-i18n="skills.engineering">🔧 Engineering</h3>
+          <div class="skill-tags">
+            <span class="tag">AutoCAD</span>
+            <span class="tag">SolidWorks</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 data-i18n="skills.core">🚀 Core Competencies</h3>
+          <div class="skill-tags">
+            <span class="tag" data-i18n="skills.t1">Network Optimization</span>
+            <span class="tag" data-i18n="skills.t2">Last Mile Logistics</span>
+            <span class="tag" data-i18n="skills.t3">Cost Reduction</span>
+            <span class="tag" data-i18n="skills.t4">Data-Driven Decision Making</span>
+            <span class="tag" data-i18n="skills.t5">Cross-Functional Leadership</span>
+            <span class="tag" data-i18n="skills.t6">Stakeholder Management</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section class="section section-dark" id="certifications">
+    <div class="container">
+      <h2 class="section-title" data-i18n="certs.title">Certifications</h2>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-icon">📈</div>
+          <h4>Google Data Analytics Certificate</h4>
+          <p>Google, 2023</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">🧠</div>
+          <h4>CS50 Series: Computer Science, Python, AI</h4>
+          <p>Harvard University, 2020–2022</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">🎨</div>
+          <h4>UI/UX Design</h4>
+          <p>Le Wagon, 2022</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">📊</div>
+          <h4 data-i18n="certs.pbi">Power BI Intermediate</h4>
+          <p>EmpleoTecnia, 2020</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">🔧</div>
+          <h4 data-i18n="certs.maint">Industrial Maintenance</h4>
+          <p>FACET UNT, 2019</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leadership -->
+  <section class="section" id="leadership">
+    <div class="container">
+      <h2 class="section-title" data-i18n="lead.title">Leadership & Volunteering</h2>
+      <div class="leadership-grid">
+        <div class="lead-card">
+          <h4>NGO "Juventud Que Se Mueve"</h4>
+          <p data-i18n="lead.ngo">Board Member (2019) · "Te Pinta" Project Coordinator, leading 60+ volunteers (2018)</p>
+        </div>
+        <div class="lead-card">
+          <h4 data-i18n="lead.schoen.title">Schoenstatt Apostolic Movement</h4>
+          <p data-i18n="lead.schoen.desc">10+ years of youth leadership · Co-organized 10-day mission with 250+ participants (2017)</p>
+        </div>
+        <div class="lead-card">
+          <h4 data-i18n="lead.exchange.title">International Cultural Exchange</h4>
+          <p data-i18n="lead.exchange.desc">12-week immersion program in Australia & New Zealand (2014)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section-accent" id="contact">
+    <div class="container contact-section">
+      <div class="contact-badge" data-i18n="contact.badge">Open to Opportunities</div>
+      <h2 class="section-title contact-title" data-i18n="contact.title">Let's Build Something Together</h2>
+      <p class="contact-sub" data-i18n="contact.sub">Looking for my next challenge in Supply Chain, Logistics, Operations, or Data Analytics. Based in Paris, open to relocation.</p>
+      <div class="contact-links">
+        <a href="mailto:nicomontaldi@gmail.com" class="contact-card">
+          <span class="contact-icon">✉️</span>
+          <div>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">nicomontaldi@gmail.com</span>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/nicolas-montaldi/" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-icon">💼</span>
+          <div>
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">nicolas-montaldi</span>
+          </div>
+        </a>
+        <a href="tel:+543814183236" class="contact-card">
+          <span class="contact-icon">📱</span>
+          <div>
+            <span class="contact-label" data-i18n="contact.phone">Phone</span>
+            <span class="contact-value">+54 381 4183236</span>
+          </div>
+        </a>
+      </div>
+      <a href="CV_Nicolas_Montaldi_EN_V2.pdf" download class="btn btn-primary btn-download-lg" id="cv-download-lg">
+        <svg width="18" height="18" viewBox="0 0 16 16" fill="none" style="vertical-align:-3px;margin-right:8px"><path d="M8 1v10m0 0l-3-3m3 3l3-3M2 13h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="contact.cv">Download Full CV (PDF)</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Nicolas Montaldi · Paris, France · <span data-i18n="footer">Built with purpose.</span></p>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script>
+    // === i18n Engine ===
+    const cvFiles = {
+      en: 'CV_Nicolas_Montaldi_EN_V2.pdf',
+      es: 'CV_Nicolas_Montaldi_ES_V2.pdf',
+      fr: 'CV_Nicolas_Montaldi_EN_V2.pdf'
+    };
+
+    function setLang(lang) {
+      const t = translations[lang];
+      if (!t) return;
+
+      document.documentElement.lang = lang;
+      localStorage.setItem('lang', lang);
+
+      // Update all data-i18n elements
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.dataset.i18n;
+        if (t[key] !== undefined) {
+          el.innerHTML = t[key];
+        }
+      });
+
+      // Update CV download links
+      const cvFile = cvFiles[lang] || cvFiles.en;
+      document.querySelectorAll('#cv-download, #cv-download-lg').forEach(a => {
+        a.href = cvFile;
+      });
+
+      // Update active button
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+      });
+
+      // Update page title
+      const titles = {
+        en: 'Nicolas Montaldi — Supply Chain & Logistics Professional',
+        es: 'Nicolas Montaldi — Profesional de Supply Chain y Logística',
+        fr: 'Nicolas Montaldi — Professionnel Supply Chain & Logistique'
+      };
+      document.title = titles[lang] || titles.en;
+    }
+
+    // Init language from localStorage or browser
+    const savedLang = localStorage.getItem('lang');
+    const browserLang = navigator.language.slice(0, 2);
+    const initLang = savedLang || (['es', 'fr'].includes(browserLang) ? browserLang : 'en');
+    setLang(initLang);
+
+    // Language switcher clicks
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.addEventListener('click', () => setLang(btn.dataset.lang));
+    });
+
+    // === Sticky nav ===
+    window.addEventListener('scroll', () => {
+      document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // === Smooth scroll ===
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          document.querySelector('.nav-links').classList.remove('open');
+        }
+      });
+    });
+
+    // === Active nav highlighting ===
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a[data-section]');
+    const observerNav = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navLinks.forEach(link => link.classList.remove('active'));
+          const active = document.querySelector(`.nav-links a[data-section="${entry.target.id}"]`);
+          if (active) active.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-40% 0px -55% 0px' });
+    sections.forEach(s => observerNav.observe(s));
+
+    // === Staggered scroll reveal ===
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('revealed');
+      });
+    }, { threshold: 0.08 });
+
+    document.querySelectorAll('.timeline-item, .edu-card, .cert-card, .lead-card, .skill-category, .about-text, .about-languages, .map-region, .contact-card').forEach((el, i) => {
+      el.classList.add('reveal');
+      el.style.transitionDelay = `${(i % 4) * 0.1}s`;
+      revealObserver.observe(el);
+    });
+
+    // === Animated language bars ===
+    const langObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.style.width = entry.target.dataset.width + '%';
+      });
+    }, { threshold: 0.5 });
+    document.querySelectorAll('.lang-fill').forEach(bar => {
+      bar.style.width = '0%';
+      langObserver.observe(bar);
+    });
+
+    // === Counter animation ===
+    const counterObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !entry.target.dataset.counted) {
+          entry.target.dataset.counted = 'true';
+          const target = +entry.target.dataset.target;
+          const prefix = entry.target.dataset.prefix || '';
+          const suffix = entry.target.dataset.suffix || '';
+          const duration = 1500;
+          const start = performance.now();
+          const step = (now) => {
+            const progress = Math.min((now - start) / duration, 1);
+            const eased = 1 - Math.pow(1 - progress, 3);
+            entry.target.textContent = prefix + Math.round(target * eased) + suffix;
+            if (progress < 1) requestAnimationFrame(step);
+          };
+          requestAnimationFrame(step);
+        }
+      });
+    }, { threshold: 0.5 });
+    document.querySelectorAll('.stat-num[data-target]').forEach(el => counterObserver.observe(el));
+  </script>
+</body>
+</html>
