@@ -9,7 +9,7 @@ const translations = {
 
     "hero.tag": "Supply Chain & Logistics",
     "hero.quote": '"I turn logistics complexity into measurable performance — across borders, carriers, and cultures."',
-    "hero.sub": '3P Network Design Manager at <span class="highlight">Amazon Logistics</span>, optimizing last-mile delivery across Southern Europe. Engineering mindset, data-driven execution.',
+    "hero.sub": 'Ex-3P Network Design Manager at <span class="highlight">Amazon Logistics</span>. 170M+ packages, €2M savings, 6+ countries. Relocating to Argentina — open to remote & on-site roles.',
     "hero.stat1": "Packages / Year",
     "hero.stat2": "Annual Cost Savings",
     "hero.stat3": "Carrier Partners",
@@ -20,7 +20,7 @@ const translations = {
 
     "about.title": "About Me",
     "about.p1": "Results-driven Supply Chain & Logistics professional with 5+ years of experience spanning network optimization, data analytics, and mechanical engineering.",
-    "about.p2": "Currently based in Paris, I lead 3P network design for Spain, Portugal, and Italy at Amazon — owning speed strategy across 11 carrier partners delivering 170MM+ packages annually. My work blends analytical rigor (SQL, QuickSight, Power BI) with operational execution to drive measurable impact in cost, speed, and service performance.",
+    "about.p2": "Based in Argentina after 4+ years in Europe, I led 3P network design for Spain, Portugal, and Italy at Amazon — owning speed strategy across 11 carrier partners delivering 170MM+ packages annually. My work blends analytical rigor (SQL, QuickSight, Power BI) with operational execution to drive measurable impact in cost, speed, and service performance.",
     "about.p3": "With a dual background in Mechanical Engineering (Argentina) and an MSc in Management-Engineering from Audencia Business School (France), I bring a unique cross-functional perspective to complex logistics challenges.",
     "about.lang": "Languages",
     "about.spanish": "Spanish",
@@ -42,7 +42,7 @@ const translations = {
 
     "exp.title": "Work Experience",
     "exp.amazon.loc": "Amazon Logistics — Paris, France",
-    "exp.amazon.date": "Jan 2023 — Present",
+    "exp.amazon.date": "Jan 2023 — Aug 2026",
     "exp.amazon.role": "Last Mile Transportation",
     "exp.amazon.li1": "Own 3P Speed strategy and network optimization for Spain, Portugal, and Italy, managing 11 external carrier partners delivering 170MM+ packages annually.",
     "exp.amazon.li2": 'Delivered <strong>€2M yearly cost reduction</strong> scope across ES-PT through network design optimization, lane strategy, and partner portfolio rebalancing.',
@@ -90,9 +90,9 @@ const translations = {
     "lead.exchange.title": "International Cultural Exchange",
     "lead.exchange.desc": "12-week immersion program in Australia & New Zealand (2014)",
 
-    "contact.badge": "Open to Opportunities",
+    "contact.badge": "Open to Opportunities — Available September 2026",
     "contact.title": "Let's Build Something Together",
-    "contact.sub": "Looking for my next challenge in Supply Chain, Logistics, Operations, or Data Analytics. Based in Paris, open to relocation.",
+    "contact.sub": "Looking for my next challenge in Supply Chain, Logistics, Operations, or Data Analytics. Based in Argentina, open to remote roles worldwide.",
     "contact.phone": "Phone",
     "contact.cv": "Download Full CV (PDF)",
     "footer": "Built with purpose.",
@@ -101,13 +101,13 @@ const translations = {
 
     "looking.title": "What I'm Looking For",
     "looking.roles.title": "Target Roles",
-    "looking.roles.desc": "Supply Chain Manager, Logistics Operations Manager, Network Design Lead, Transportation Manager, or Data & Analytics roles within operations-heavy environments.",
+    "looking.roles.desc": "Supply Chain Manager, Logistics Operations Manager, Network Design Lead, Transportation Manager, Data & Analytics Manager, or Operations roles in tech-driven environments.",
     "looking.industries.title": "Industries",
-    "looking.industries.desc": "E-commerce, logistics & transportation, FMCG, manufacturing, retail, or any company where supply chain is a competitive advantage — not just a cost center.",
+    "looking.industries.desc": "E-commerce, logistics & transportation, FMCG, manufacturing, retail, fintech, or any company where supply chain and operations are a competitive advantage.",
     "looking.what.title": "What Excites Me",
     "looking.what.desc": "Roles where I can combine analytical depth with operational impact. I thrive in environments that value data-driven decisions, cross-border complexity, and continuous improvement at scale.",
     "looking.location.title": "Location",
-    "looking.location.desc": "Currently based in Paris. Planning to relocate to Argentina (Buenos Aires / Tucumán). Open to remote, hybrid, or on-site roles in LATAM or Europe."
+    "looking.location.desc": "Based in Argentina (Tucumán). Open to fully remote roles for US/European companies, or hybrid/on-site in Argentina. LATAM timezone (GMT-3), compatible with US East Coast."
   },
 
   es: {
@@ -120,7 +120,7 @@ const translations = {
 
     "hero.tag": "Supply Chain & Logística",
     "hero.quote": '"Transformo la complejidad logística en rendimiento medible — a través de fronteras, transportistas y culturas."',
-    "hero.sub": '3P Network Design Manager en <span class="highlight">Amazon Logistics</span>, optimizando la última milla en el sur de Europa. Mentalidad ingenieril, ejecución basada en datos.',
+    "hero.sub": 'Ex-3P Network Design Manager en <span class="highlight">Amazon Logistics</span>. 170M+ paquetes, €2M de ahorro, 6+ países. Basado en Argentina — abierto a roles remotos y presenciales.',
     "hero.stat1": "Paquetes / Año",
     "hero.stat2": "Ahorro Anual",
     "hero.stat3": "Partners Logísticos",
@@ -131,7 +131,7 @@ const translations = {
 
     "about.title": "Sobre Mí",
     "about.p1": "Profesional de Supply Chain y Logística orientado a resultados con más de 5 años de experiencia en optimización de redes, análisis de datos e ingeniería mecánica.",
-    "about.p2": "Actualmente basado en París, lidero el diseño de red 3P para España, Portugal e Italia en Amazon — gestionando la estrategia de velocidad con 11 transportistas externos y un volumen anual de más de 170 millones de paquetes. Mi trabajo combina rigor analítico (SQL, QuickSight, Power BI) con ejecución operativa para generar impacto medible en costos, velocidad y servicio.",
+    "about.p2": "Basado en Argentina tras 4+ años en Europa, lideré el diseño de red 3P para España, Portugal e Italia en Amazon — gestionando la estrategia de velocidad con 11 transportistas externos y un volumen anual de más de 170 millones de paquetes. Mi trabajo combina rigor analítico (SQL, QuickSight, Power BI) con ejecución operativa para generar impacto medible en costos, velocidad y servicio.",
     "about.p3": "Con doble formación en Ingeniería Mecánica (Argentina) y un MSc en Management-Engineering de Audencia Business School (Francia), aporto una perspectiva multifuncional única a desafíos logísticos complejos.",
     "about.lang": "Idiomas",
     "about.spanish": "Español",
@@ -153,7 +153,7 @@ const translations = {
 
     "exp.title": "Experiencia Laboral",
     "exp.amazon.loc": "Amazon Logistics — París, Francia",
-    "exp.amazon.date": "Ene 2023 — Presente",
+    "exp.amazon.date": "Ene 2023 — Ago 2026",
     "exp.amazon.role": "Transporte de Última Milla",
     "exp.amazon.li1": "Responsable de la estrategia de velocidad y optimización de red 3P para España, Portugal e Italia, coordinando 11 partners logísticos y 170M+ de envíos anuales.",
     "exp.amazon.li2": 'Lideré una <strong>reducción de costos de €2M anuales</strong> en ES-PT mediante el rediseño de red, optimización de rutas y rebalanceo del porfolio de proveedores.',
@@ -201,9 +201,9 @@ const translations = {
     "lead.exchange.title": "Intercambio Cultural Internacional",
     "lead.exchange.desc": "Programa de inmersión de 12 semanas en Australia y Nueva Zelanda (2014)",
 
-    "contact.badge": "Abierto a Oportunidades",
+    "contact.badge": "Abierto a Oportunidades — Disponible Septiembre 2026",
     "contact.title": "Construyamos Algo Juntos",
-    "contact.sub": "Busco mi próximo desafío en Supply Chain, Logística, Operaciones o Data Analytics. Basado en París, abierto a mudarme a Argentina.",
+    "contact.sub": "Busco mi próximo desafío en Supply Chain, Logística, Operaciones o Data Analytics. Basado en Argentina, abierto a roles remotos a nivel global.",
     "contact.phone": "Teléfono",
     "contact.cv": "Descargar CV Completo (PDF)",
     "footer": "Hecho con propósito.",
@@ -212,13 +212,13 @@ const translations = {
 
     "looking.title": "Qué Busco",
     "looking.roles.title": "Roles Objetivo",
-    "looking.roles.desc": "Supply Chain Manager, Gerente de Operaciones Logísticas, Líder de Diseño de Red, Gerente de Transporte, o roles de Data & Analytics en entornos operativos intensivos.",
+    "looking.roles.desc": "Supply Chain Manager, Gerente de Operaciones Logísticas, Líder de Diseño de Red, Gerente de Transporte, Data & Analytics Manager, o roles de operaciones en entornos tech.",
     "looking.industries.title": "Industrias",
-    "looking.industries.desc": "E-commerce, logística y transporte, consumo masivo, manufactura, retail, o cualquier empresa donde la cadena de suministro sea una ventaja competitiva — no solo un centro de costos.",
+    "looking.industries.desc": "E-commerce, logística y transporte, consumo masivo, manufactura, retail, fintech, o cualquier empresa donde la cadena de suministro y las operaciones sean una ventaja competitiva.",
     "looking.what.title": "Qué Me Motiva",
     "looking.what.desc": "Roles donde pueda combinar profundidad analítica con impacto operativo. Me desarrollo mejor en entornos que valoran las decisiones basadas en datos, la complejidad internacional y la mejora continua a escala.",
     "looking.location.title": "Ubicación",
-    "looking.location.desc": "Actualmente basado en París. Planifico mudarme a Argentina (Buenos Aires / Tucumán). Abierto a roles remotos, híbridos o presenciales en LATAM o Europa."
+    "looking.location.desc": "Basado en Argentina (Tucumán). Abierto a roles 100% remotos para empresas de EEUU/Europa, o híbridos/presenciales en Argentina. Zona horaria LATAM (GMT-3), compatible con US East Coast."
   },
 
   fr: {
@@ -231,7 +231,7 @@ const translations = {
 
     "hero.tag": "Supply Chain & Logistique",
     "hero.quote": '"Je transforme la complexité logistique en performance mesurable — au-delà des frontières, des transporteurs et des cultures."',
-    "hero.sub": '3P Network Design Manager chez <span class="highlight">Amazon Logistics</span>, optimisant la livraison du dernier kilomètre en Europe du Sud. Esprit ingénieur, exécution data-driven.',
+    "hero.sub": 'Ex-3P Network Design Manager chez <span class="highlight">Amazon Logistics</span>. 170M+ colis, €2M d\'économies, 6+ pays. Basé en Argentine — ouvert aux postes en remote et présentiel.',
     "hero.stat1": "Colis / An",
     "hero.stat2": "Économies Annuelles",
     "hero.stat3": "Partenaires Transport",
@@ -242,7 +242,7 @@ const translations = {
 
     "about.title": "À Propos",
     "about.p1": "Professionnel Supply Chain & Logistique orienté résultats avec plus de 5 ans d'expérience en optimisation de réseaux, analyse de données et ingénierie mécanique.",
-    "about.p2": "Actuellement basé à Paris, je dirige la conception du réseau 3P pour l'Espagne, le Portugal et l'Italie chez Amazon — pilotant la stratégie de vitesse avec 11 transporteurs externes livrant plus de 170 millions de colis par an. Mon travail allie rigueur analytique (SQL, QuickSight, Power BI) et exécution opérationnelle pour générer un impact mesurable sur les coûts, la vitesse et la performance.",
+    "about.p2": "Basé en Argentine après 4+ ans en Europe, j'ai dirigé la conception du réseau 3P pour l'Espagne, le Portugal et l'Italie chez Amazon — pilotant la stratégie de vitesse avec 11 transporteurs externes livrant plus de 170 millions de colis par an. Mon travail allie rigueur analytique (SQL, QuickSight, Power BI) et exécution opérationnelle pour générer un impact mesurable sur les coûts, la vitesse et la performance.",
     "about.p3": "Avec une double formation en Ingénierie Mécanique (Argentine) et un MSc en Management-Ingénierie d'Audencia Business School (France), j'apporte une perspective transversale unique aux défis logistiques complexes.",
     "about.lang": "Langues",
     "about.spanish": "Espagnol",
@@ -264,7 +264,7 @@ const translations = {
 
     "exp.title": "Expérience Professionnelle",
     "exp.amazon.loc": "Amazon Logistics — Paris, France",
-    "exp.amazon.date": "Jan 2023 — Présent",
+    "exp.amazon.date": "Jan 2023 — Août 2026",
     "exp.amazon.role": "Transport du Dernier Kilomètre",
     "exp.amazon.li1": "Responsable de la stratégie de vitesse et de l'optimisation du réseau 3P pour l'Espagne, le Portugal et l'Italie, coordonnant 11 partenaires transporteurs et 170M+ de colis par an.",
     "exp.amazon.li2": 'Réduction de coûts de <strong>€2M annuels</strong> sur ES-PT grâce à l\'optimisation du réseau, la stratégie de lignes et le rééquilibrage du portefeuille de partenaires.',
@@ -312,9 +312,9 @@ const translations = {
     "lead.exchange.title": "Échange Culturel International",
     "lead.exchange.desc": "Programme d'immersion de 12 semaines en Australie et Nouvelle-Zélande (2014)",
 
-    "contact.badge": "Ouvert aux Opportunités",
+    "contact.badge": "Ouvert aux Opportunités — Disponible Septembre 2026",
     "contact.title": "Construisons Ensemble",
-    "contact.sub": "À la recherche de mon prochain défi en Supply Chain, Logistique, Opérations ou Data Analytics. Basé à Paris, ouvert à la mobilité.",
+    "contact.sub": "À la recherche de mon prochain défi en Supply Chain, Logistique, Opérations ou Data Analytics. Basé en Argentine, ouvert aux postes en remote à l'international.",
     "contact.phone": "Téléphone",
     "contact.cv": "Télécharger CV Complet (PDF)",
     "footer": "Conçu avec intention.",
@@ -323,12 +323,12 @@ const translations = {
 
     "looking.title": "Ce Que Je Recherche",
     "looking.roles.title": "Postes Visés",
-    "looking.roles.desc": "Supply Chain Manager, Responsable Opérations Logistiques, Lead Network Design, Responsable Transport, ou rôles Data & Analytics dans des environnements à forte composante opérationnelle.",
+    "looking.roles.desc": "Supply Chain Manager, Responsable Opérations Logistiques, Lead Network Design, Responsable Transport, Data & Analytics Manager, ou rôles opérationnels dans des environnements tech.",
     "looking.industries.title": "Secteurs",
-    "looking.industries.desc": "E-commerce, logistique et transport, grande consommation, industrie, retail, ou toute entreprise où la supply chain est un avantage concurrentiel — pas seulement un centre de coûts.",
+    "looking.industries.desc": "E-commerce, logistique et transport, grande consommation, industrie, retail, fintech, ou toute entreprise où la supply chain et les opérations sont un avantage concurrentiel.",
     "looking.what.title": "Ce Qui Me Motive",
     "looking.what.desc": "Des postes où je peux allier profondeur analytique et impact opérationnel. Je m'épanouis dans des environnements qui valorisent les décisions data-driven, la complexité internationale et l'amélioration continue à grande échelle.",
     "looking.location.title": "Localisation",
-    "looking.location.desc": "Actuellement basé à Paris. Projet de relocalisation en Argentine (Buenos Aires / Tucumán). Ouvert aux postes en remote, hybride ou présentiel en LATAM ou en Europe."
+    "looking.location.desc": "Basé en Argentine (Tucumán). Ouvert aux postes 100% remote pour des entreprises US/européennes, ou hybride/présentiel en Argentine. Fuseau horaire LATAM (GMT-3), compatible avec la côte Est des États-Unis."
   }
 };
