@@ -9,7 +9,7 @@ const translations = {
 
     "hero.tag": "Supply Chain & Logistics",
     "hero.quote": '"I turn logistics complexity into measurable performance — across borders, carriers, and cultures."',
-    "hero.sub": 'Ex-3P Network Design Manager at <span class="highlight">Amazon Logistics</span>. 170M+ packages, €2M savings, 6+ countries. Relocating to Argentina — open to remote & on-site roles.',
+    "hero.sub": 'Ex-3P Network Design Manager at <span class="highlight">Amazon Logistics</span>. 170M+ packages, €2M savings, 8+ countries. Based in France, relocating to Argentina in September 2026 — open to remote & on-site roles.',
     "hero.stat1": "Packages / Year",
     "hero.stat2": "Annual Cost Savings",
     "hero.stat3": "Carrier Partners",
@@ -20,7 +20,7 @@ const translations = {
 
     "about.title": "About Me",
     "about.p1": "Results-driven Supply Chain & Logistics professional with 5+ years of experience spanning network optimization, data analytics, and mechanical engineering.",
-    "about.p2": "Based in Argentina after 4+ years in Europe, I led 3P network design for Spain, Portugal, and Italy at Amazon — owning speed strategy across 11 carrier partners delivering 170MM+ packages annually. My work blends analytical rigor (SQL, QuickSight, Power BI) with operational execution to drive measurable impact in cost, speed, and service performance.",
+    "about.p2": "After 4+ years in Europe, I led 3P network design for Spain, Portugal, and Italy at Amazon — owning speed strategy across 11 carrier partners delivering 170MM+ packages annually. My work blends analytical rigor (SQL, QuickSight, Power BI) with operational execution to drive measurable impact in cost, speed, and service performance. Currently based in France and relocating to Argentina in September 2026.",
     "about.p3": "With a dual background in Mechanical Engineering (Argentina) and an MSc in Management-Engineering from Audencia Business School (France), I bring a unique cross-functional perspective to complex logistics challenges.",
     "about.lang": "Languages",
     "about.spanish": "Spanish",
@@ -48,7 +48,7 @@ const translations = {
     "exp.amazon.li2": 'Delivered <strong>€2M yearly cost reduction</strong> scope across ES-PT through network design optimization, lane strategy, and partner portfolio rebalancing.',
     "exp.amazon.li3": 'Improved next-day delivery speed for Correos (largest carrier in Spain) by <strong>+1,600 bps YoY</strong> (~85% improvement) through network redesign and performance-driven execution.',
     "exp.amazon.li4": 'Led performance improvement plan for InPost in Poland, increasing on-time delivery by <strong>+130 bps YoY</strong> through deep-dives, root cause analysis, and partner execution tracking.',
-    "exp.amazon.li5": "Supported network design across Belgium, Luxembourg, Poland, UK, and Rest of Europe, driving multi-market data-driven performance improvements.",
+    "exp.amazon.li5": "Over 3+ years at Amazon, drove network design initiatives across Benelux, the UK, and 15+ emerging markets (CEE, Baltics, Balkans), optimizing operational performance at European scale.",
     "exp.scania.title": "Mechanical Engineer Trainee",
     "exp.scania.loc": "Scania — Tucumán, Argentina",
     "exp.scania.date": "Dec 2020 — Dec 2021",
@@ -92,7 +92,7 @@ const translations = {
 
     "contact.badge": "Open to Opportunities — Available September 2026",
     "contact.title": "Let's Build Something Together",
-    "contact.sub": "Looking for my next challenge in Supply Chain, Logistics, Operations, or Data Analytics. Based in Argentina, open to remote roles worldwide.",
+    "contact.sub": "Looking for my next challenge in Supply Chain, Logistics, Operations, or Data Analytics. Based in France until September 2026, then Argentina — open to remote roles worldwide.",
     "contact.phone": "Phone",
     "contact.cv": "Download Full CV (PDF)",
     "footer": "Built with purpose.",
@@ -107,7 +107,7 @@ const translations = {
     "looking.what.title": "What Excites Me",
     "looking.what.desc": "Roles where I can combine analytical depth with operational impact. I thrive in environments that value data-driven decisions, cross-border complexity, and continuous improvement at scale.",
     "looking.location.title": "Location",
-    "looking.location.desc": "Based in Argentina (Tucumán). Open to fully remote roles for US/European companies, or hybrid/on-site in Argentina. LATAM timezone (GMT-3), compatible with US East Coast."
+    "looking.location.desc": "Based in France until September 2026, then relocating to Argentina (Tucumán). Open to fully remote roles for US/European companies, or hybrid/on-site in Argentina or Europe. Future LATAM timezone (GMT-3), compatible with US East Coast."
   },
 
   es: {
@@ -120,7 +120,7 @@ const translations = {
 
     "hero.tag": "Supply Chain & Logística",
     "hero.quote": '"Transformo la complejidad logística en rendimiento medible — a través de fronteras, transportistas y culturas."',
-    "hero.sub": 'Ex-3P Network Design Manager en <span class="highlight">Amazon Logistics</span>. 170M+ paquetes, €2M de ahorro, 6+ países. Basado en Argentina — abierto a roles remotos y presenciales.',
+    "hero.sub": 'Ex-3P Network Design Manager en <span class="highlight">Amazon Logistics</span>. 170M+ paquetes, €2M de ahorro, 8+ países. Basado en Francia, me mudo a Argentina en septiembre de 2026 — abierto a roles remotos y presenciales.',
     "hero.stat1": "Paquetes / Año",
     "hero.stat2": "Ahorro Anual",
     "hero.stat3": "Partners Logísticos",
@@ -131,7 +131,7 @@ const translations = {
 
     "about.title": "Sobre Mí",
     "about.p1": "Profesional de Supply Chain y Logística orientado a resultados con más de 5 años de experiencia en optimización de redes, análisis de datos e ingeniería mecánica.",
-    "about.p2": "Basado en Argentina tras 4+ años en Europa, lideré el diseño de red 3P para España, Portugal e Italia en Amazon — gestionando la estrategia de velocidad con 11 transportistas externos y un volumen anual de más de 170 millones de paquetes. Mi trabajo combina rigor analítico (SQL, QuickSight, Power BI) con ejecución operativa para generar impacto medible en costos, velocidad y servicio.",
+    "about.p2": "Tras 4+ años en Europa, lideré el diseño de red 3P para España, Portugal e Italia en Amazon — gestionando la estrategia de velocidad con 11 transportistas externos y un volumen anual de más de 170 millones de paquetes. Mi trabajo combina rigor analítico (SQL, QuickSight, Power BI) con ejecución operativa para generar impacto medible en costos, velocidad y servicio. Actualmente basado en Francia y mudándome a Argentina en septiembre de 2026.",
     "about.p3": "Con doble formación en Ingeniería Mecánica (Argentina) y un MSc en Management-Engineering de Audencia Business School (Francia), aporto una perspectiva multifuncional única a desafíos logísticos complejos.",
     "about.lang": "Idiomas",
     "about.spanish": "Español",
@@ -203,7 +203,7 @@ const translations = {
 
     "contact.badge": "Abierto a Oportunidades — Disponible Septiembre 2026",
     "contact.title": "Construyamos Algo Juntos",
-    "contact.sub": "Busco mi próximo desafío en Supply Chain, Logística, Operaciones o Data Analytics. Basado en Argentina, abierto a roles remotos a nivel global.",
+    "contact.sub": "Busco mi próximo desafío en Supply Chain, Logística, Operaciones o Data Analytics. Basado en Francia hasta septiembre de 2026, luego Argentina — abierto a roles remotos a nivel global.",
     "contact.phone": "Teléfono",
     "contact.cv": "Descargar CV Completo (PDF)",
     "footer": "Hecho con propósito.",
@@ -218,7 +218,7 @@ const translations = {
     "looking.what.title": "Qué Me Motiva",
     "looking.what.desc": "Roles donde pueda combinar profundidad analítica con impacto operativo. Me desarrollo mejor en entornos que valoran las decisiones basadas en datos, la complejidad internacional y la mejora continua a escala.",
     "looking.location.title": "Ubicación",
-    "looking.location.desc": "Basado en Argentina (Tucumán). Abierto a roles 100% remotos para empresas de EEUU/Europa, o híbridos/presenciales en Argentina. Zona horaria LATAM (GMT-3), compatible con US East Coast."
+    "looking.location.desc": "Basado en Francia hasta septiembre de 2026, luego me mudo a Argentina (Tucumán). Abierto a roles 100% remotos para empresas de EEUU/Europa, o híbridos/presenciales en Argentina o Europa. Futura zona horaria LATAM (GMT-3), compatible con US East Coast."
   },
 
   fr: {
@@ -231,7 +231,7 @@ const translations = {
 
     "hero.tag": "Supply Chain & Logistique",
     "hero.quote": '"Je transforme la complexité logistique en performance mesurable — au-delà des frontières, des transporteurs et des cultures."',
-    "hero.sub": 'Ex-3P Network Design Manager chez <span class="highlight">Amazon Logistics</span>. 170M+ colis, €2M d\'économies, 6+ pays. Basé en Argentine — ouvert aux postes en remote et présentiel.',
+    "hero.sub": 'Ex-3P Network Design Manager chez <span class="highlight">Amazon Logistics</span>. 170M+ colis, €2M d\'économies, 8+ pays. Basé en France, je m\'installe en Argentine en septembre 2026 — ouvert aux postes en remote et présentiel.',
     "hero.stat1": "Colis / An",
     "hero.stat2": "Économies Annuelles",
     "hero.stat3": "Partenaires Transport",
@@ -242,7 +242,7 @@ const translations = {
 
     "about.title": "À Propos",
     "about.p1": "Professionnel Supply Chain & Logistique orienté résultats avec plus de 5 ans d'expérience en optimisation de réseaux, analyse de données et ingénierie mécanique.",
-    "about.p2": "Basé en Argentine après 4+ ans en Europe, j'ai dirigé la conception du réseau 3P pour l'Espagne, le Portugal et l'Italie chez Amazon — pilotant la stratégie de vitesse avec 11 transporteurs externes livrant plus de 170 millions de colis par an. Mon travail allie rigueur analytique (SQL, QuickSight, Power BI) et exécution opérationnelle pour générer un impact mesurable sur les coûts, la vitesse et la performance.",
+    "about.p2": "Après 4+ ans en Europe, j'ai dirigé la conception du réseau 3P pour l'Espagne, le Portugal et l'Italie chez Amazon — pilotant la stratégie de vitesse avec 11 transporteurs externes livrant plus de 170 millions de colis par an. Mon travail allie rigueur analytique (SQL, QuickSight, Power BI) et exécution opérationnelle pour générer un impact mesurable sur les coûts, la vitesse et la performance. Actuellement basé en France et je m'installe en Argentine en septembre 2026.",
     "about.p3": "Avec une double formation en Ingénierie Mécanique (Argentine) et un MSc en Management-Ingénierie d'Audencia Business School (France), j'apporte une perspective transversale unique aux défis logistiques complexes.",
     "about.lang": "Langues",
     "about.spanish": "Espagnol",
@@ -314,7 +314,7 @@ const translations = {
 
     "contact.badge": "Ouvert aux Opportunités — Disponible Septembre 2026",
     "contact.title": "Construisons Ensemble",
-    "contact.sub": "À la recherche de mon prochain défi en Supply Chain, Logistique, Opérations ou Data Analytics. Basé en Argentine, ouvert aux postes en remote à l'international.",
+    "contact.sub": "À la recherche de mon prochain défi en Supply Chain, Logistique, Opérations ou Data Analytics. Basé en France jusqu'en septembre 2026, puis en Argentine — ouvert aux postes en remote à l'international.",
     "contact.phone": "Téléphone",
     "contact.cv": "Télécharger CV Complet (PDF)",
     "footer": "Conçu avec intention.",
@@ -329,6 +329,6 @@ const translations = {
     "looking.what.title": "Ce Qui Me Motive",
     "looking.what.desc": "Des postes où je peux allier profondeur analytique et impact opérationnel. Je m'épanouis dans des environnements qui valorisent les décisions data-driven, la complexité internationale et l'amélioration continue à grande échelle.",
     "looking.location.title": "Localisation",
-    "looking.location.desc": "Basé en Argentine (Tucumán). Ouvert aux postes 100% remote pour des entreprises US/européennes, ou hybride/présentiel en Argentine. Fuseau horaire LATAM (GMT-3), compatible avec la côte Est des États-Unis."
+    "looking.location.desc": "Basé en France jusqu'en septembre 2026, puis je m'installe en Argentine (Tucumán). Ouvert aux postes 100% remote pour des entreprises US/européennes, ou hybride/présentiel en Argentine ou en Europe. Futur fuseau horaire LATAM (GMT-3), compatible avec la côte Est des États-Unis."
   }
 };
