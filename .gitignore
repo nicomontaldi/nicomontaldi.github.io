@@ -3,3 +3,21 @@
 .vscode/
 Resume_Divya_Shah_AZ.pdf
 Mudanza argentina/
+
+# Proyecto Next.js aparte: no forma parte del sitio de GitHub Pages
+Chez Marquise/
+
+# ATENCION: este repo es PUBLICO (GitHub Pages).
+# Nada de lo de abajo debe publicarse nunca.
+
+# Material interno de trabajo (confidencial: tarifas de carriers,
+# topologia de red, mapeos de sorts, correos internos)
+handover/
+*.msg
+*.xlsx
+
+# Notas personales y de sesiones de trabajo
+tracking/
+Training/
+.kiro/
+Pedidos ya offers.txt
